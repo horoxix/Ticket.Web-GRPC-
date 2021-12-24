@@ -1,4 +1,0 @@
-obj\Debug\net6.0/Eventcatalog.cs \
-obj\Debug\net6.0/EventcatalogGrpc.cs: C:/Users/horox/.nuget/packages/grpc.tools/2.40.0/build/native/include/google/protobuf/timestamp.proto\
- C:/Users/horox/.nuget/packages/grpc.tools/2.40.0/build/native/include/google/protobuf/any.proto\
- ../Protos/eventcatalog.proto
