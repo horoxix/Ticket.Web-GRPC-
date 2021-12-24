@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1281966f-f7a9-4a32-80b1-286e539bde91": {
+      "ProjectGuid": "1281966f-f7a9-4a32-80b1-286e539bde91",
+      "DisplayName": "Ticket.Web",
+      "ColorIndex": 0
+    },
+    "9faa6851-9e0f-4b9e-a201-9b33ccff6ba1": {
+      "ProjectGuid": "9faa6851-9e0f-4b9e-a201-9b33ccff6ba1",
+      "DisplayName": "EventService",
+      "ColorIndex": 1
+    },
+    "78eb5f14-d807-43fe-843f-7ec3c1c25b8a": {
+      "ProjectGuid": "78eb5f14-d807-43fe-843f-7ec3c1c25b8a",
+      "DisplayName": "eventcatalog.proto",
+      "ColorIndex": 2
+    },
+    "3d5f5e41-ed53-41a1-b821-7794401416ae": {
+      "ProjectGuid": "3d5f5e41-ed53-41a1-b821-7794401416ae",
+      "DisplayName": "Protos",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

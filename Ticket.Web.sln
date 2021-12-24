@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.Web", "Ticket.Web\Ticket.Web.csproj", "{1281966F-F7A9-4A32-80B1-286E539BDE91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventService", "EventService\EventService.csproj", "{9FAA6851-9E0F-4B9E-A201-9B33CCFF6BA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{495A551A-F993-4BC2-90F8-DC405A8964AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{3D5F5E41-ED53-41A1-B821-7794401416AE}"
+	ProjectSection(SolutionItems) = preProject
+		Protos\eventcatalog.proto = Protos\eventcatalog.proto
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B8C78994-5731-4017-936F-3CEAB5C7908E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1281966F-F7A9-4A32-80B1-286E539BDE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1281966F-F7A9-4A32-80B1-286E539BDE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1281966F-F7A9-4A32-80B1-286E539BDE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1281966F-F7A9-4A32-80B1-286E539BDE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FAA6851-9E0F-4B9E-A201-9B33CCFF6BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FAA6851-9E0F-4B9E-A201-9B33CCFF6BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FAA6851-9E0F-4B9E-A201-9B33CCFF6BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FAA6851-9E0F-4B9E-A201-9B33CCFF6BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1281966F-F7A9-4A32-80B1-286E539BDE91} = {495A551A-F993-4BC2-90F8-DC405A8964AF}
+		{9FAA6851-9E0F-4B9E-A201-9B33CCFF6BA1} = {B8C78994-5731-4017-936F-3CEAB5C7908E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2A3A471-A91B-4D36-AF0F-38CE5949CE83}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+option csharp_namespace = "EventService";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/any.proto";
+
+package API;
+
+service Events {
+  rpc GetAll (GetAllEventsRequest) returns (GetAllEventsResponse) {}
+  rpc GetAllByCategoryId (GetAllEventsByCategoryIdRequest) returns (GetAllEventsByCategoryIdResponse) {}
+  rpc GetByEventId (GetByEventIdRequest) returns (GetByEventIdResponse) {}
+  rpc GetAllCategories (GetAllCategoriesRequest) returns (GetAllCategoriesResponse) {}
+}
+
+message GetAllEventsRequest {}
+
+message GetAllEventsResponse {
+	repeated Event Events = 1;
+}
+
+message GetAllEventsByCategoryIdRequest {
+	int32 CategoryId = 1;
+}
+message GetAllEventsByCategoryIdResponse {
+	repeated Event Events = 1;
+}
+
+message GetByEventIdRequest {
+	int32 EventId = 1;
+}
+
+message GetByEventIdResponse {
+	Event Event = 1;
+}
+
+message GetAllCategoriesRequest {}
+
+message GetAllCategoriesResponse {
+	repeated Category Categories = 1;
+}
+
+message Event {
+	int32 EventId = 1;
+	string Name = 2;
+	int32 Price = 3;
+	string Artist = 4;
+	google.protobuf.Timestamp Date = 5;
+	string Description = 6;
+	string ImageUrl = 7;
+	google.protobuf.Any Category = 8;
+	int32 CategoryId = 9;
+	string CategoryName = 10;
+}
+
+message Category {
+	int32 CategoryId = 1;
+	string Name = 2;
+}
+
